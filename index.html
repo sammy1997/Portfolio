@@ -5,236 +5,177 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">   
-    
-    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
-    
-    
-    <link rel="stylesheet" href="plugins/github-calendar/dist/github-calendar.css"/>
-    
-    <link rel="stylesheet" href="plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    
-     
+       
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
     
 </head> 
-
 <body>
-    
-    <header class="header">
-        <div class="container">                       
-            <img style="width:8vw;height:8vw;border-radius:50%;" class="profile-image img-responsive pull-left" src="images/profile.png" alt="Sammy" />
-            <div class="profile-content pull-left">
-                <h1 class="name">Sombuddha Chakravarty</h1>
-                <h2 class="desc">Front End Web Developer &amp; Android App Developer</h2>   
-                <ul class="social list-inline">
-                    <li><a href="https://www.facebook.com/profile.php?id=100012332736481"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/sombuddha-chakravarty-9482b5131/"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="www.github.com/sammy1997"><i class="fa fa-github-alt"></i></a></li>                  
-                </ul> 
-            </div>
-            <a class="btn btn-cta-primary pull-right" href="#" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Erin Manahan</a>
         </div>
-    </header>
-    
-    <div class="container sections-wrapper">
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Sammy</h1>
+              <p class="lead text-center">A Software developer and security researcher.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 center-block text-center">
+              <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center">About Me</h2>
         <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading" style="margin-bottom: 50px;">About Me</h2>
-                        <div class="content">
-                            <p style="margin-bottom: 40px;"><i style="margin-bottom: 2px;">“ It's not at all important to get it right the first time. It's vitally important to get it right the last time.May the sorce be with you"</i>
-                            </p>    
-         
-        					<p style="margin-bottom: 40px;">I like beat-boxing, swimming, reading(mainly thrillers and mythological), playing T.T., cricket and football </p>
-                         
-                        </div>
-                    </div>                 
-                </section>
-    
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading" style="margin-bottom: 50px;">Latest Projects</h2>
-                        <div class="content">    
-                            <ul>
-                            	<li style="margin-bottom: 25px;">ACM Website : <a href="https://sammy1997.github.io/ACMWebsite/">link</a></li>
-                            	<li style="margin-bottom: 25px;">BITS ACAD : <a href="bitsacad.com">link</a></li>
-                            	<li style="margin-bottom: 25px;">BOSM 17 App : <a href="https://play.google.com/store/apps/details?id=com.dvm.bosm.bosm_bitspilani&hl=en">link </a></li> 
-                            	<li style="margin-bottom: 25px;">Oasis 17 App: <a href="https://play.google.com/store/apps/details?id=v2015.oasis.pilani.bits.com.home&hl=en">link </a></li>                             	
-                            </ul>              
-                </div>
-                </div>
-                </section>
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading" style="margin-bottom: 25px;">Scholarships</h2>
-                        <p style="margin-bottom: 25px;">I am a KVPY(2016 and 2015, SA and SX categories) and  NTSE scholar.</p> 
-                        
-                        
-                    </div>
-                </section>
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading" style="margin-bottom: 25px;">My GitHub</h2>
-                        <p style="margin-bottom: 25px;">You can follow me at my <a href="https://github.com/sammy1997">Github ID </a> </p> 
-                        
-                        
-                    </div>
-                </section>
+          <div class="col-md-6 text-center about-info">
+            <img class="img-circle text-center profile-img" src="https://sonorangirl.github.io/img/Square-Ireland.png">
+            <p class="text-center">I'm a self taught web developer from Scottsdale, AZ. I'm currently learning Javascript development with FreeCodeCamp and Treehouse. I also have degrees in Biology and Sustainability so I can't wait till I get to the point where I can jump into the more interactive data visualizations and put what I'm learning to good use. But for now I'm having fun learning the basics! </p>
+          </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center">Here's a few of the tools I use</p>
+              <div class="col-xs-6">
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                  <li>Foundation</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>JQuery</li>
+                  <li>Sass</li>
+                  <li>Git</li>
+                  <li>WordPress</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            
+          </div>
+          <div class="row break">
+            <div class="col-md-6 about-last">
+              <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
             </div>
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>West Bengal, India</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="www.gmail.com">sombuddha2016@gmail.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Github :</span><a href="www.github.com/sammy1997"> See here</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">My Skills</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Android Studio<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Advanced</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">ML<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Beginner</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="10%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Advanced</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="65%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">C++ &amp; C<span class="level-label">Inter</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="55%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label">Beginner</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="30%">
-                                        </div>                                      
-                                    </div>                                 
-                                </div>
-                                
-                            </div>              
-                        </div>  
-                    </div>                 
-                </aside>
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap">B.E(Hons.) Electrical and Electronics</i> </h3>
-                                <h4 class="university">BITS Pilani, Pilani Campus<span class="year">(2016-2020)</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Bengali:</strong></span>
-                                    <span class="level"> <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level"><br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                    <span class="level"><br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-                
-                
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-headphones"></i> <a href="#">Remember The Name</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Sorry</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Dont wanna know</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Hall of Fame</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">We don't talk anymore</a></li>
- 								<li><i class="fa fa-headphones"></i> <a href="#">And many more</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-                
-                
-                
-              
-            </div>
-            </div>
-            </div>
+          </div>
+        </div> 
+      </div><!-- End #About -->
 
-    
-             
-    <script type="text/javascript" src="plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
-    <script type="text/javascript" src="plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="js/main.js"></script>            
-</body>
-</html> 
+      <div id="portfolio" class="row cover">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="container">
+          <div class="row portfolio-projects"> <!-- Two project row-->
+            <div class="col-lg-6"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Earth Quotes</h4>
+                  <p class="portfolio-projects--desc">Random quotes shown over google earth images</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript, JQuery, Bootstrap</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://sonorangirl.github.io/Earth-Quotes/#" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="portfolio-projects--image" src="https://sonorangirl.github.io/img/slice-quotes.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"> <!--2nd side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">Task Timer</h4>
+                  <p class="portfolio-projects--desc">A Pomodoro clock timer with a task list integration</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript, JQuery, Bootstrap</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://sonorangirl.github.io/Task-Timer/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="https://sonorangirl.github.io/img/slice-task-timer.png">
+                </div>
+              </div>
+            </div>
+          </div><!--end Two project row-->
 
+          <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+            <div class="col-lg-6"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Whats the Weather</h4>
+                  <p class="portfolio-projects--desc">A weather app to check current weather conditions.</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript, Jquery, APIs</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://sonorangirl.github.io/Weather/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="img-rounded portfolio-projects--image" src="https://sonorangirl.github.io/img/weather-slice.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"> <!--2nd side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">Simon Game</h4>
+                  <p class="portfolio-projects--desc">A simple recreation of the 80s game Simon.</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript, Sass, JQuery</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://sonorangirl.github.io/Simon-Game/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="https://sonorangirl.github.io/img/slice-simon.png">
+                </div>
+              </div>
+            </div>
+          </div><!--end Opposite Two project row-->
+
+        </div>
+        </div>
+      </div><!-- End #Portfolio -->
+
+      <div id="contact" class="row cover bottom">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> manahan.erin@gmail.com</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="https://codepen.io/sonorangirl/"><li><i class="fa fa-codepen"></i> CodePen</li></a>
+            <a href="https://www.linkedin.com/in/emanahan"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+            <a href="https://github.com/sonorangirl"><li><i class="fa fa-github"></i> Github</li></a>
+            <a href="https://freecodecamp.com/sonorangirl"><li>(<i class="fa fa-fire"></i>) FreeCodeCamp</li></a>
+            <a href="http://teamtreehouse.com/erinmanahan"><li> Treehouse</li></a>
+            <a href="https://twitter.com/sonoran_girl"><li><i class="fa fa-twitter"></i> Twitter</li></a>
+          </ul>
+        </p>
+        
+      </div><!-- End #Contact -->
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
